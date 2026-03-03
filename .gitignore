@@ -1,0 +1,31 @@
+# ── Frontend ──────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# ── Backend ───────────────────────────────────────────────────
+backend/target/
+backend/.env
+*.class
+*.jar
+*.war
+
+# ── Python (scripts utilitaires) ──────────────────────────────
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+extract_pdf.py
+
+# ── Base de données ────────────────────────────────────────────
+*.sql.bak
+
+# ── Système ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+.vscode/settings.json
+
+# ── PDF générés ───────────────────────────────────────────────
+generated-pdfs/
